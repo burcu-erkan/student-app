@@ -1,0 +1,50 @@
+.contain {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+input {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ccc;
+  padding: 12px 20px 12px 40px;
+  outline: none;
+}
+img {
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+.image {
+  margin: 30px 25px;
+}
+.info {
+  margin-left: -180px;
+}
+.info h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.info p {
+  line-height: 0.5;
+  font-weight: 100;
+  padding-left: 15px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  color: rgb(161, 160, 160);
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  margin: 5px;
+  background-color: #ccc;
+  padding: 5px 7px;
+  border-radius: 4px;
+}
